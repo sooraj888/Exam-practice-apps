@@ -33,9 +33,16 @@ const InputPage = () => {
   }, [countryName]);
 
   useEffect(() => {
-    console.log(data);
     if (data) navigate("countryDetails", { state: { data } });
   }, [data]);
+  if (false) {
+    return (
+      <div>
+        error
+        <button onClick={() => window.location.reload()}>retry</button>
+      </div>
+    );
+  }
   return (
     <form onSubmit={handleOnInputFormSubmit}>
       <input
