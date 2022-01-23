@@ -1,0 +1,32 @@
+.App,
+.pages {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list > span {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: coral !important;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.item {
+  background-color: wheat;
+  margin-bottom: 5px;
+  padding: 10px 0px;
+  border-radius: 8px;
+}
