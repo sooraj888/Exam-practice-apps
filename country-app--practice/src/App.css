@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.page > div > span {
+  display: inline-block;
+
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 10px 0px;
+  margin: 5px 0px;
+}
+.capitalweather {
+  background-color: rgb(194, 152, 152);
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+.a {
+  display: flex;
+
+  align-items: center;
+  padding: 10px;
+}
+.a > img {
+  padding: 0px 20px;
+}
