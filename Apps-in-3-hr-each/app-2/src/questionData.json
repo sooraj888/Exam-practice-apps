@@ -1,0 +1,21 @@
+[
+  { "question": "2+3", "answer": "5", "id": 1 },
+  { "id": 2, "question": "5+4", "answer": "9", "option": [4, 6, 8, 9] },
+  {
+    "id": 3,
+    "question": "4>7",
+    "answer": "no",
+    "option": ["yes", "no"]
+  },
+  {
+    "id": 4,
+    "question": "value of pie",
+    "option": ["3.142", "3", "4", "22/7"],
+    "answer": ["3.142", "22/7"]
+  },
+  {
+    "id": 5,
+    "question": "question 5",
+    "answer": ""
+  }
+]
