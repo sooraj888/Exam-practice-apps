@@ -1,0 +1,18 @@
+.page {
+  background-color: rgb(177, 137, 137);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page > div {
+  background-color: greenyellow;
+  margin: 5px;
+  border-radius: 20px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 300px;
+}
